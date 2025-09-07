@@ -1,0 +1,70 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log**
+.pnpm-debug.log*
+.pnpm-debug.log*
+
+# --- Build ---
+/dist
+/build
+/output
+/.next
+/.nuxt
+/.vuepress/dist
+/.serverless
+/.vercel
+/.parcel-cache
+/.cache
+/.turbo
+/.expo
+/.expo-shared
+
+# --- Configuración del entorno ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.envrc
+.env.*.local
+
+# --- Archivos temporales del SO ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+Icon?
+
+# --- IDEs & editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Coverage / Tests ---
+coverage/
+*.lcov
+
+# --- Claves/API ---
+src/app/keys.js
+src/app/config.js
+src/app/secrets.js
+src/app/api_keys.js
+src/app/.env
+src/app/.env.local
+src/app/.env.development.local
+src/app/.env.test.local
+src/app/.env.production.local
+src/app/.secrets.js
+src/app/.keys.js
+src/app/.config.js
+src/app/.api_keys.js
+src/app/keys.json
+src/app/config.json
+src/app/secrets.json
+src/app/api_keys.json
